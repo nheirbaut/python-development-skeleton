@@ -1,0 +1,30 @@
+{
+	"name": "Python Skeleton Project",
+	"image": "mcr.microsoft.com/devcontainers/base:bookworm",
+	"features": {
+		"ghcr.io/va-h/devcontainers-features/uv:1": {
+			"shellautocompletion": true,
+			"version": "latest"
+		},
+		"ghcr.io/dhoeric/features/hadolint:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"charliermarsh.ruff",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"codezombiech.gitignore",
+				"eamodio.gitlens",
+				"exiasr.hadolint",
+				"ms-azuretools.vscode-docker",
+				"redhat.vscode-yaml",
+				"shardulm94.trailing-spaces",
+				"tamasfe.even-better-toml",
+				"usernamehw.errorlens",
+				"yzhang.markdown-all-in-one"
+			]
+		}
+	},
+	"postCreateCommand": "uv python pin $(cat .python-version) && uv sync --dev"
+}
