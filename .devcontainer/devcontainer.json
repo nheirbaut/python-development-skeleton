@@ -12,18 +12,20 @@
 		"vscode": {
 			"extensions": [
 				"charliermarsh.ruff",
-				"ms-python.python",
-				"ms-python.vscode-pylance",
 				"codezombiech.gitignore",
+				"DavidAnson.vscode-markdownlint",
 				"eamodio.gitlens",
 				"exiasr.hadolint",
 				"ms-azuretools.vscode-docker",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"njpwerner.autodocstring",
 				"redhat.vscode-yaml",
 				"shardulm94.trailing-spaces",
+				"streetsidesoftware.code-spell-checker",
 				"tamasfe.even-better-toml",
 				"usernamehw.errorlens",
-				"yzhang.markdown-all-in-one",
-				"njpwerner.autodocstring"
+				"yzhang.markdown-all-in-one"
 			]
 		}
 	},
