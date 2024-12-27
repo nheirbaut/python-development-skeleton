@@ -163,3 +163,5 @@ cython_debug/
 
 # As this is a template the uv.lock file should never be included
 uv.lock
+
+.ruff_cache/
