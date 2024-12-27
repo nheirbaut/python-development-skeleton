@@ -29,13 +29,16 @@ To use this template:
    - Open the cloned repository in Visual Studio Code.
    - When prompted, choose to "Reopen in Container" to start the devcontainer.
 
-3. **Customization**:
-   - Since there's no explicit `Dockerfile` mentioned, customize your development environment through `devcontainer.json` or other configuration files present.
-
 ## Usage
 
-- **Run Example Script** (assuming there's an example):
+- **Run Example Script**:
 
   ```bash
-  uv run python src/example.py
+  uv run python src/main.py
   ```
+
+- **Run Example Tests**:
+
+   ```bash
+   uv run pytest
+   ```
